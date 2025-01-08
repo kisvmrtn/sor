@@ -93,3 +93,32 @@ footer {
     padding: 13px;
     text-align: center;
 }
+table {
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: #635e5e;
+}
+th {
+    font-weight: bold;
+}
+th,
+td {
+  border: 1px solid white;
+  padding: 8px 10px;
+}
+
+@media (max-width: 700px) {
+    * {
+        padding: 5px;
+    }
+    main {
+        grid-template-areas: "h"
+                             "n"
+                             "a"
+                             "f";
+    }
+    nav li {
+        width: 100%;
+    }
+}
