@@ -73,7 +73,7 @@ article {
 article p {
     font-size: 10px;
 }
-article h1 {
+article h1, h2 {
     font-size: 15px;
 }
 article img {
@@ -120,5 +120,8 @@ td {
     }
     nav li {
         width: 100%;
+    }
+    nav {
+        border: none;
     }
 }
